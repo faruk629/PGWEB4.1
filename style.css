@@ -1,0 +1,51 @@
+
+#formMain{
+    display:flex;
+    justify-content: center;
+    vertical-align: bottom;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+main{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+body{
+    background-color: silver;
+}
+fieldset#fieldseTuteur1{
+    padding-bottom: 130px;
+}
+fieldset#fieldseTuteur2{
+     padding-bottom: 130px;
+}
+span.erreur{
+    color:red;
+    font-size:10px;
+}
+table{
+    border-collapse:collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+td, th /* Mettre une bordure sur les td ET les th */
+{
+    border: 1px solid black;
+    text-align: center;
+}
+th{
+    width:200px;
+    background-color: papayawhip;
+}
+tr#idEleve:hover{
+    background-color: silver;
+}
+
+.infEleveTd{
+    text-align: left;
+    border-collapse: none;
+}
